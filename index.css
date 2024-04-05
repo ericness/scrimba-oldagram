@@ -34,3 +34,7 @@ article{
     flex-direction: row;
     
 }
+
+.main-image{
+    width: 375px;
+}
