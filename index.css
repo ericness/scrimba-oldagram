@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 header{
@@ -34,7 +35,19 @@ article{
     flex-direction: row;
     
 }
-
+.poster-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.poster-name{
+    font-weight: 700;
+}
 .main-image{
     width: 375px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
 }
