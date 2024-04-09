@@ -1,53 +1,81 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #C6C6C6;
 }
 
-.logo{
+.logo {
     width: 127px;
     height: 33.02px;
     margin: 20px;
 }
 
-.user-avatar{
+.user-avatar {
     width: 34px;
     height: 34px;
     border-radius: 17px;
-    margin: 20px;
+    margin: 15px;
 }
 
-article{
+article {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
 }
-.poster{
+
+.poster {
     display: flex;
     flex-direction: row;
-    
+
 }
-.poster-info{
+
+.poster-info {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 }
-.poster-name{
+
+.poster-name {
     font-weight: 700;
+    margin: 0px;
+    padding: 2px;
 }
-.main-image{
+
+.poster-location {
+    margin: 0px;
+    padding: 2px;
+}
+
+.main-image {
     width: 375px;
 }
 
-.icon{
+.comments {
+    width: 375px;
+    margin-left: 8px;
+}
+
+.icon {
     width: 20px;
     height: 20px;
+    margin: 5px;
+}
+
+.likes {
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.commenter {
+    font-weight: 700;
+    margin-right: 5px;
 }
